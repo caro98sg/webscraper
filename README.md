@@ -11,17 +11,11 @@ The purpose of this web scraper is to extract data from a website. All data and 
 However, due to its enormous number of articles published, it is nearly impossible for users to read all articles for a given keyword in a given timeframe. Hence, to get a good overview and thorough understanding of a particular research stream, researchers often filter for specific keywords. Our web scraper simplifies this search process for users of "TheConversation" as it automatically downloads all articles and their respective metadata related to a particular keyword. Such an algorithm eliminates the effort of downloading all papers of interest manually. The web scraper aggregates all articles and metadata which are published on "TheConversation" for a given keyword (in our case "Vaccination") in a given timeframe (in our case 01.01.2020 to 01.05.2021) into one file (in our case called "storage_file.csv"). This file will provide an overview of all relevant articles and can be utilized for further analysis, as mentioned above.
 ### Pre-installations required:
 *``pip install os``
-```
 *``pip install python-dateutil``
-```
 *``pip install beautifulsoup4``
-```
 *``pip install langdetect``
-```
 *``pip install datetime``
-```
 *``pip install requests``
-```
 *``pip install pandas``
 
 ### Files needed:
