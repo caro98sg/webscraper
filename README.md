@@ -1,8 +1,8 @@
 # Python Based Webscraper
 
 ### Project Description 
-This code is a group project by Johannes Küchenhoff (johanneskuechenhoff), Carolin Schmitt (CaroSchmitt), and Manuel Zwerger (not.available) for the class `Programming with Advanced Computer Languages` by Dr Mario Silic. 
-The project comprises a ** Python-based web scraper** that extracts all articles and their respective metadata from the website `TheConversation` that fit a specific keyword and were published in a given timeframe. For example, as a keyword for this project, we chose `vaccination`, and our timeframe ranges from 1.01.2020 to 01.05.2021. However, the user can easily modify the keyword and timeframe according to his/her preferences. 
+This code is a group project by Johannes Küchenhoff (johanneskuechenhoff), Carolin Schmitt (CaroSchmitt), and Manuel Zwerger (not.available) for the class "Programming with Advanced Computer Languages" by Dr Mario Silic. 
+The project comprises a Python-based web scraper that extracts all articles and their respective metadata from the website `TheConversation` that fit a specific keyword and were published in a given timeframe. For example, as a keyword for this project, we chose `vaccination`, and our timeframe ranges from 1.01.2020 to 01.05.2021. However, the user can easily modify the keyword and timeframe according to his/her preferences. 
 ### Objective
 The purpose of this web scraper is to extract data from a website. All data and information collected are then exported into the "storage_file.csv". This file provides an overview for the user of all articles that were published on "TheConversation" within the defined timeframe. After having consolidated all articles, the data can be used for further analysis, such as contextual topic identification models.
 ### Relevance
